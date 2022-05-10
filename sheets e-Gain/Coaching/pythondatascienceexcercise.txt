@@ -1,0 +1,24 @@
+Using our DataFrame surveys_df, try out the attributes & methods below to see what they return.
+
+surveys_df.columns
+surveys_df.shape Take note of the output of shape - what format does it return the shape of the DataFrame in?
+
+surveys_df.head() Also, what does surveys_df.head(15) do?
+surveys_df.tail()
+
+How many recorded individuals are female F and how many male M?
+
+What happens when you group by two columns using the following syntax and then calculate mean values?
+
+Summarize weight values for each site in your data.
+(M- avg weight, F- avg weight)
+
+What’s another way to create a list of species and associated count of the records in the data? 
+
+Create a line chart(length) of M species..
+
+create a bar chart year wise for M species (counting)..
+
+Create a plot of average weight across all species per site.
+
+Create a plot of total males versus total females for the entire dataset.

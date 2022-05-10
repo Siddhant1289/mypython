@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>SUM</title>
+</head>
+<script language="javascript">
+	function sum()
+	{
+		a=parseInt(document.myform.No1.value)
+		b=parseInt(document.myform.No2.value)
+		c=a+b
+		alert(c)
+	}
+</script>
+<body>
+	<center>
+		<form name="myform" action="" method="get">
+			No 1<input type="text" size="20" name="No1" placeholder="enter value" required=""><br>
+			No 2<input type="text" size="20" name="No2" placeholder="enter value" required=""><br>
+			<input type="button" value="SUM" onclick="sum()">
+		</form>
+	</center>
+</body>
+</html>
